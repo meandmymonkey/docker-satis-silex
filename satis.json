@@ -1,0 +1,25 @@
+{
+    "name": "satis",
+    "homepage": "http://localhost",
+    "repositories": [
+        { "type": "composer", "url": "https://packagist.org" }
+    ],
+    "require-all": false,
+    "require-dependencies": false,
+    "require-dev-dependencies": false,
+    "require": {
+        "pimple/pimple": "1.1.1",
+        "psr/log": "1.0.0",
+        "silex/silex": "1.2.1",
+        "symfony/debug": "2.5.3",
+        "symfony/event-dispatcher": "2.5.3",
+        "symfony/http-foundation": "2.5.3",
+        "symfony/http-kernel": "2.5.3",
+        "symfony/routing": "2.5.3"
+    },
+    "archive": {
+       "directory": "dist",
+       "format": "tar",
+       "skip-dev": false
+    }
+}
